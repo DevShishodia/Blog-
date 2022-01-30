@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    margin: 1.5rem;
+    text-align: center;
+    font-family: cursive;
+    color: chocolate;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-inner{
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.form-row{
+    width: 60vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 2vw;
+}
+.form-row textarea{
+    margin-top: 1rem;
+    min-height: 10vh;
+    width: 30vw;
+    border-radius: 5px;
+    border: 2px solid rgb(12, 149, 228);
+    font-size: 1.3rem;
+    font-family: cursive;
+}
+.form-row button{
+    height: 7vh;
+    width: 10vw;
+    border: 0px;
+    border-radius: 2px;
+    font-family: cursive;
+    color: white;
+}
+.btn-success{
+ background-color: rgb(8, 190, 8);
+ 
+}
+#savetaskbtn{
+    display: none;
+}
+.btn-danger{
+    background-color: rgb(231, 7, 7);
+}
+table{
+    margin: 3rem;
+    margin-left: 10vw;
+}
+th{
+     margin: 1rem;
+    padding-right: 2rem;
+    font-family: cursive; 
+}
+ td{
+     margin: 1rem;
+     padding: 1rem;
+     padding-right: 2rem;
+     font-family: cursive;
+}
+td button{
+    width: 50px;
+    height: 20px;
+    border: 0px;
+    border-radius: 2px;
+    font-family: cursive;
+    color: white;
+}
+.text-primary{
+    background-color: rgb(4, 160, 160);
+    
+}
+.text-danger{
+    background-color:  rgb(231, 7, 7);
+}
